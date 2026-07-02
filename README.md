@@ -1,8 +1,6 @@
 # SG blue bin recycling assistant
 
-
-<img width="553" height="11" alt="image" src="https://github.com/user-attachments/assets/207e15d3-b1c5-4ec1-aeef-9488d0eb0ab5" />
-
+<img width="830" height="469" alt="image" src="https://github.com/user-attachments/assets/71ce8dec-c246-434e-bedf-ad6e0e223e3e" />
 
 I started this project because I'm always second-guessing what actually goes into the blue commingled recycling bins found around across all housing estates Singapore. Unlike countries where recyclables are separated by material, these blue bins allow you to throw paper, plastic, glass, and metal into the same bin. However, there are quite a few exceptions that make things confusing.
 
@@ -83,9 +81,10 @@ Finally, I used the Gradio documentation to build a simple interface that allows
 ## Areas for Improvement
 
 
+<img width="2143" height="1093" alt="image" src="https://github.com/user-attachments/assets/6e5ad20e-21f8-474f-bf92-01dbb930bf78" />
 
 
-
+One limitation of the application is the limited number of object categories in the training dataset. For instance, because the dataset does not contain a plastic cup class, the model predicts the closest available class (plastic cup lid), which is subsequently classified as non-recyclable by the rule engine. Increasing the diversity and number of training categories would enable the model to better distinguish between visually similar objects and improve the accuracy of recycling decisions.
 
 
 
